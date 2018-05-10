@@ -537,21 +537,6 @@ public class ControladorVentanaPrincipal {
 		}
 	}
 
-//	private void mostrarAlquilerAbierto(/*Alquiler alquiler*/) {
-//
-//		alquileres.removeAll(alquileres);
-//
-//		if (alquiler != null) {
-//			
-//			alquileresAbiertos = FXCollections
-//					.observableArrayList(IUGrafica.controladorMVC.obtenerAlquileresAbiertos());
-//			tAlquileresInicio.setItems(alquileresAbiertos);
-//			tAlquileresInicio.getSelectionModel().select(0);
-//			tAlquileresInicio.getSortOrder().add(tcFecha);
-//			
-//		}
-//	}
-
 	@FXML
 	private void accionAlquiler() {
 		if (rbListadoAlquileresAbiertos.isSelected()) {
